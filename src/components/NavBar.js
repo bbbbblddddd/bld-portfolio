@@ -5,9 +5,10 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
 
   return (
-    <ul>
+    <nav>
+    <ul id= "navbar">
       <li>
-        <Link to="/">HomePage</Link>
+        <Link to="/">Home</Link>
       </li>
       <li>
         <Link to="/about-me">About Me</Link>
@@ -15,8 +16,8 @@ const NavBar = () => {
       <li>
         <Link to="/projects">Projects</Link>
       </li>
-      
     </ul>
+    </nav>
   );
 }
 

@@ -3,11 +3,11 @@ import PortfolioContainer from './container/PortfolioContainer';
 
 function App() {
 
-
-
   return (
 
-    <PortfolioContainer />
+    <body>
+      <PortfolioContainer />
+    </body>
 
   );
 }
